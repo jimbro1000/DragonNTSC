@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "vdg")(type "KiCad")(uri "${KIPRJMOD}/vdg.kicad_sym")(options "")(descr ""))
+)
