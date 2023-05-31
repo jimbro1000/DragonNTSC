@@ -1,5 +1,7 @@
 # NTSC VIDEO BOARD FOR DRAGON 32 RECREATION Rev 3 #
 
+![render of NTSC video board](DragonNTSC.png)
+
 To further improve video quality on the Dragon 32 this
 board completely isolates the video circuits from the rest
 of the Dragon by making it a plugin. This also means that
