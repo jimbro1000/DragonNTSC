@@ -1761,13 +1761,13 @@
   (no_connect (at 107.1372 38.4556) (uuid 0cc0d68d-e3e9-4d49-baba-c550a9ebb167))
   (no_connect (at 107.1372 58.7756) (uuid 25e2c0c9-285a-499b-a5c5-a49e65a978ae))
   (no_connect (at 107.1372 48.6156) (uuid 2928d8d4-82a4-48ef-ad88-215615920560))
-  (no_connect (at 255.0668 76.1492) (uuid 2b0bb6bb-03d8-4d40-a1d5-d45c5bc31f99))
   (no_connect (at 145.288 47.3456) (uuid 342322d3-defb-4e06-8471-30c08e143cfa))
   (no_connect (at 107.1372 61.3156) (uuid 34a51a74-b0a7-4a17-92cb-2e23c6f5bd63))
   (no_connect (at 107.1372 51.1556) (uuid 3ea0b3f5-c7bc-41d6-b9a9-81d5b87f90c8))
   (no_connect (at 107.1372 53.6956) (uuid 5aeea0f1-3225-46f8-8f7b-1cd5a365e7c8))
   (no_connect (at 107.1372 56.2356) (uuid 6b14a248-aa23-448e-b405-94ebc3ce3c1d))
   (no_connect (at 107.1372 84.1756) (uuid 85aff62a-2228-4ddf-93e2-5ee1f4ff49d9))
+  (no_connect (at 233.2228 35.0012) (uuid 87bbb184-5315-4142-86ac-76377c745f99))
   (no_connect (at 168.148 44.8056) (uuid 8ab05c86-4a97-4ff5-9e15-8b293f65702e))
   (no_connect (at 107.1372 40.9956) (uuid aa873ee2-3cae-41b9-abaf-010c0c3dcb86))
   (no_connect (at 107.1372 33.3756) (uuid b1c41b0e-7206-47de-b97b-d5d2f0e2b722))
@@ -2738,8 +2738,8 @@
     (property "Manufacturer part#" "1N4148" (at 109.982 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 2c8f3ebe-1c62-4fee-8633-8e45f89ac32a))
     (pin "1" (uuid 484f4ac8-7c36-40e0-9b13-305480ba1946))
+    (pin "2" (uuid 2c8f3ebe-1c62-4fee-8633-8e45f89ac32a))
     (instances
       (project "DragonNTSC"
         (path "/5c3ccdac-dbfc-47b7-be5c-593b42d2b61c"
@@ -2773,8 +2773,8 @@
     (property "Manufacturer part#" "C315C102K1R5TA7301" (at 101.6 152.146 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 6f1cb65f-f6aa-43b3-abfb-96dc7fe11c04))
     (pin "1" (uuid 4fb8233b-69d7-4201-ae66-c97c686b7b15))
+    (pin "2" (uuid 6f1cb65f-f6aa-43b3-abfb-96dc7fe11c04))
     (instances
       (project "DragonNTSC"
         (path "/5c3ccdac-dbfc-47b7-be5c-593b42d2b61c"
@@ -3108,13 +3108,13 @@
     (property "Manufacturer2 part#" "NE555P" (at 71.12 140.716 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid d17ad1d9-7099-4b0c-9a03-1449ad7a889e))
+    (pin "8" (uuid 9e24f133-b0ae-4a62-b35e-bf0d4e48fea7))
+    (pin "2" (uuid dd007cac-2737-411c-82c1-febbc3001d63))
     (pin "3" (uuid b19ecc76-d177-4781-b9c4-ffe547c9ed1b))
     (pin "4" (uuid d3537172-cf7e-4ee4-af8a-0573fb5990dd))
-    (pin "1" (uuid d17ad1d9-7099-4b0c-9a03-1449ad7a889e))
-    (pin "2" (uuid dd007cac-2737-411c-82c1-febbc3001d63))
-    (pin "8" (uuid 9e24f133-b0ae-4a62-b35e-bf0d4e48fea7))
-    (pin "6" (uuid 8270e211-779d-495f-8dfb-5ff9b87a3a16))
     (pin "5" (uuid 54e267c6-baac-4dd2-b229-a7fe579c6087))
+    (pin "6" (uuid 8270e211-779d-495f-8dfb-5ff9b87a3a16))
     (pin "7" (uuid 666eb281-be43-4e9a-85d5-fc2424599c43))
     (instances
       (project "DragonNTSC"
@@ -3976,8 +3976,8 @@
     (property "Manufacturer part#" "CF14JT9K10" (at 101.6 134.366 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid a4676a9d-1136-4f6c-8fc8-b2a4b217c5c0))
     (pin "1" (uuid 5dea9e07-fd91-49aa-b0c0-e82caa3c4fdd))
+    (pin "2" (uuid a4676a9d-1136-4f6c-8fc8-b2a4b217c5c0))
     (instances
       (project "DragonNTSC"
         (path "/5c3ccdac-dbfc-47b7-be5c-593b42d2b61c"
@@ -4051,6 +4051,36 @@
     )
   )
 
+  (symbol (lib_id "power:-5V") (at 255.0668 76.1492 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d322eabe-b854-47f9-8629-f8d652d02e41)
+    (property "Reference" "#PWR064" (at 257.6068 76.1492 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "-5V" (at 258.8768 76.7842 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 255.0668 76.1492 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 255.0668 76.1492 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 627a2047-f4d3-4cb5-bde8-a20624f638e1))
+    (instances
+      (project "Dragon32"
+        (path "/0c3dceba-7c95-4b3d-b590-0eb581444beb"
+          (reference "#PWR064") (unit 1)
+        )
+      )
+      (project "DragonNTSC"
+        (path "/5c3ccdac-dbfc-47b7-be5c-593b42d2b61c"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 83.0072 25.6286 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d471ecea-fd1c-45dd-9484-b44673297dd5)
@@ -4076,36 +4106,6 @@
       (project "DragonNTSC"
         (path "/5c3ccdac-dbfc-47b7-be5c-593b42d2b61c"
           (reference "#PWR09") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:-5V") (at 233.2228 35.0012 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d6a73982-a4f7-4854-8dde-2d41b6f715d6)
-    (property "Reference" "#PWR064" (at 235.7628 35.0012 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "-5V" (at 237.0328 35.6362 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 233.2228 35.0012 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 233.2228 35.0012 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e20b7e6c-e6d7-4d8e-8a2f-7356b806cd7c))
-    (instances
-      (project "Dragon32"
-        (path "/0c3dceba-7c95-4b3d-b590-0eb581444beb"
-          (reference "#PWR064") (unit 1)
-        )
-      )
-      (project "DragonNTSC"
-        (path "/5c3ccdac-dbfc-47b7-be5c-593b42d2b61c"
-          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -4165,9 +4165,9 @@
     (property "Manufacturer part#" "PN2222A PBFREE" (at 128.27 178.816 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 6376aad9-e70c-4b49-8c57-590911db919b))
     (pin "2" (uuid 793b1bb3-7baa-4ca4-92fa-1d911b7bfe8b))
     (pin "3" (uuid c914d34e-d32d-4615-bd8d-e4cf7f51a8ff))
-    (pin "1" (uuid 6376aad9-e70c-4b49-8c57-590911db919b))
     (instances
       (project "DragonNTSC"
         (path "/5c3ccdac-dbfc-47b7-be5c-593b42d2b61c"
@@ -4312,8 +4312,8 @@
     (property "Manufacturer part#" "CF14JT1K00" (at 130.81 169.926 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 8becdcc9-2b2a-4637-9af4-152fd6eb039a))
     (pin "1" (uuid b4885b2c-c544-41be-b3f3-76a87bc3dfe6))
+    (pin "2" (uuid 8becdcc9-2b2a-4637-9af4-152fd6eb039a))
     (instances
       (project "DragonNTSC"
         (path "/5c3ccdac-dbfc-47b7-be5c-593b42d2b61c"
@@ -4467,8 +4467,8 @@
     (property "Manufacturer part#" "MFR-25FRF52-2K2" (at 46.99 145.796 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid ed25e2e3-e6e9-4f1e-bf28-48d51f333647))
     (pin "1" (uuid a866bb31-2a87-4f22-a11d-8c8adf854f06))
+    (pin "2" (uuid ed25e2e3-e6e9-4f1e-bf28-48d51f333647))
     (instances
       (project "DragonNTSC"
         (path "/5c3ccdac-dbfc-47b7-be5c-593b42d2b61c"
